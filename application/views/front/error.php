@@ -274,8 +274,6 @@
 
         <img src="https://www.ifactz.com/tracking/track.asp?OfferShortName=THERMOS2&p1=Info+Requests&q1=1" height=1 width=1>
         <img src="https://www.ifactz.com/tracking/track.asp?OfferShortName=THERMOS4&p1=Info+Requests&q1=1" height=1 width=1>
-        <img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS2&ZipCode=&vars=OrderValue|<%=LeadNumber%>" height=1 width=1>
-        <img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS4&ZipCode=&vars=OrderValue|<%=LeadNumber%>" height=1 width=1>
 
         <script type="text/javascript">
 
