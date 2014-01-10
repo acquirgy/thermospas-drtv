@@ -1,0 +1,31 @@
+﻿#ibuttonSubmit
+{
+    float: left;
+    margin: -2px 0 0;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    width: 249px;
+    height: 74px;
+    line-height: 0;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+p.call {
+	position: absolute;
+	top: 25px;
+	left: 358px;
+	padding: 0 0 2px 50px;
+	width: 170px;
+	line-height: 14px;
+	font-size: 11px;
+	text-decoration: none;
+	color: #023d72;
+	background: url(/assets/images/bg-call.png) no-repeat 0 2px;
+}
+p.call strong {
+	display: block;
+	line-height: 16px;
+	font-size: 12px;
+}
