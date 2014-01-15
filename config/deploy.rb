@@ -1,9 +1,8 @@
-set :application, "kitchenaidtvoffer.com"
-set :repository,  "https://kd4yal:1thuhuong@github.com/bythepixel/kitchenaid-mixer.git"
+set :application, "thermospastvoffer.com"
+set :repository,  "https://kd4yal:1thuhuong@acquirgy/thermospas-drtv.git"
 set :scm, :git
 set :user, "deploy"
 set :use_sudo, false
-
 
 task :staging do
   role :web, "96.126.115.153", :primary => true
