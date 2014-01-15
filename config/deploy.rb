@@ -1,5 +1,5 @@
 set :application, "thermospastvoffer.com"
-set :repository,  "https://kd4yal:1thuhuong@acquirgy/thermospas-drtv.git"
+set :repository,  "https://kd4yal:1thuhuong@github.com/acquirgy/thermospas-drtv.git"
 set :scm, :git
 set :user, "deploy"
 set :use_sudo, false
