@@ -3,12 +3,13 @@ set :repository,  "https://kd4yal:1thuhuong@github.com/acquirgy/thermospas-drtv.
 set :scm, :git
 set :user, "deploy"
 set :use_sudo, false
+set :normalize_asset_timestamps, false
 
 task :staging do
   role :web, "96.126.115.153", :primary => true
   set :deploy_to, "/srv/www/thermospastvoffer.com/app"
   set :app_environment, "staging"
-  set :branch, "master"
+  set :branch, fetch(:branch, "master")
   set :stage, "staging"
   set :password, "PrAswubu6put"
 end
@@ -18,7 +19,7 @@ task :production do
   set :deploy_to, "/var/www/html/thermospastvoffer.com"
   set :app_environment, "production"
   set(:user) { Capistrano::CLI.ui.ask('Username: ') }
-  set :branch, "master"
+  set :branch, fetch(:branch, "master")
   set :stage, "production"
 end
 
@@ -37,16 +38,16 @@ namespace :deploy do
   end
 
   task :setup_shared do
-    run "mkdir -p #{shared_path}/uploads/order_{exports,imports,updates}"
+    #run "mkdir -p #{shared_path}/uploads/order_{exports,imports,updates}"
   end
 
   task :link_shared_paths do
     run "chmod -R g+w #{release_path}"
-    run "ln -nfs #{shared_path}/uploads #{release_path}/uploads"
+    #run "ln -nfs #{shared_path}/uploads #{release_path}/uploads"
   end
 
   task :update_permissions do
-    run "chmod +x #{release_path}/cron.php"
+    #run "chmod +x #{release_path}/cron.php"
   end
 
   after "deploy:setup", "deploy:setup_shared"
