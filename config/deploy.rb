@@ -31,9 +31,9 @@ namespace :deploy do
   task :restart do ; end
 
   task :update_config_files do
-    # run "ln -s #{release_path}/.htaccess_#{stage} #{release_path}/.htaccess"
-    # run "ln -s #{release_path}/application/config/config_#{stage}.php #{release_path}/application/config/config.php"
-    # run "ln -s #{release_path}/application/config/database_#{stage}.php #{release_path}/application/config/database.php"
+  run "ln -s #{release_path}/.htaccess_#{stage} #{release_path}/.htaccess"
+  run "ln -s #{release_path}/application/config/config_#{stage}.php #{release_path}/application/config/config.php"
+  run "ln -s #{release_path}/application/config/database_#{stage}.php #{release_path}/application/config/database.php"
   end
 
   task :setup_shared do
