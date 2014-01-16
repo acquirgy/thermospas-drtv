@@ -295,7 +295,6 @@
             </div>
         </div>
     </div>
-		 <%--end popup-holder div--%>
 
         <img src="https://www.ifactz.com/tracking/track.asp?OfferShortName=THERMOS2&p1=Info+Requests&q1=1" height=1 width=1>
         <img src="https://www.ifactz.com/tracking/track.asp?OfferShortName=THERMOS4&p1=Info+Requests&q1=1" height=1 width=1>
