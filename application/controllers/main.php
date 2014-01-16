@@ -22,7 +22,7 @@ class Main extends CI_Controller {
 
   public function confirmation() {
 
-		$lead = array(
+		$data['lead'] = array(
 			'fname' => $this->input->post('first_name'),
 			'lname' => $this->input->post('last_name'),
 			'email' => $this->input->post('email'),
@@ -34,7 +34,7 @@ class Main extends CI_Controller {
 			'iref' =>  $this->session->userdata('iref')
 		);
 
-		$data['leadid'] = $this->lead_model->insert($lead);
+		$data['leadid'] = $this->lead_model->insert($data['lead']);
 
 		if($data['leadid']) {
 			$this->load->view('front/confirmation', $data);

@@ -33,12 +33,12 @@
 					<!-- confirm -->
 					<div class="confirm-block">
 						<div class="txt">
-							<h2>Thank you <span class="name"><?= $name ?>!</span></h2>
+							<h2>Thank you <span class="name"><?= $lead['fname'] ?> <?= $lead['lname'] ?>!</span></h2>
 							<p><strong>If you provided your address, your FREE DVD and Brochure will be sent to:</strong></p>
 							 <address>
-                            <?= $name ?><br />
-                            <?= $address ?><br>
-                            <?= $city ?>&#44;&nbsp;<?= $state ?>&nbsp;<?= $zip ?>
+                            <?= $lead['fname'] ?> <?= $lead['lname'] ?><br />
+                            <?= $lead['address1'] ?><br>
+                            <?= $lead['city'] ?>&#44;&nbsp;<?= $lead['state'] ?>&nbsp;<?= $lead['zipcode'] ?>
                         </address>
 							<p>Please call <strong>800-876-0158</strong> with any questions or to speak to a sales associate.</p>
 						</div>

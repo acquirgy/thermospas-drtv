@@ -31,7 +31,7 @@ function initFormFocus() {
                     setTimeout(function () {
                         input.focus();
                     }, 150);
-                } 
+                }
                 });
                 e.preventDefault();
             });
@@ -400,7 +400,7 @@ function initInputs() {
                     o.tab.css({ marginTop: '', width: '' }).insertBefore(tmpWrap);
                     tmpWrap.remove();
                     if (o.complete) o.complete();
-                } 
+                }
                 });
             },
             hide: function (o) {
@@ -413,7 +413,7 @@ function initInputs() {
                     o.tab.css({ display: 'none', marginTop: '', width: '' }).insertBefore(tmpWrap);
                     tmpWrap.remove();
                     if (o.complete) o.complete();
-                } 
+                }
                 });
             }
         }
@@ -2012,7 +2012,7 @@ Version: 1.3.1
 * Simple and fancy lightbox alternative
 *
 * Examples and documentation at: http://fancybox.net
-* 
+*
 * Copyright (c) 2008 - 2010 Janis Skarnelis
 * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
 *

@@ -6,10 +6,11 @@ class Lead_model extends CI_Model {
 
 		// Insert into local db
 		$lead['date'] = date("Y-m-d");
-		$lead_id = $this->db->insert('leads', $lead);
+		$result = $this->db->insert('leads', $lead);
+		$lead_id = $this->db->insert_id();
 
 		// Insert into remote db
-		if($lead_id) {
+		if($result) {
 
 			// Update lead array to match required structure/naming of remote db
 			$lead['ht_leadid'] = $lead_id;
@@ -17,6 +18,13 @@ class Lead_model extends CI_Model {
 			unset($lead['date']);  // Remote db does not have a date column
 			$this->secondDB = $this->load->database('remote', TRUE);
 			$remote_lead_id = $this->secondDB->insert('ht_form', $lead);
+
+			return $lead_id;
+
+		} else {
+
+			return false;
+
 		}
 
 	}
