@@ -2,90 +2,22 @@
 
 class Lead_model extends CI_Model {
 
-	var $leadid = '';
+	public function insert($lead) {
 
-	function __construct()
-    {
-        // Call the Model constructor
-        parent::__construct();
+		// Insert into local db
+		$lead['date'] = date("Y-m-d");
+		$lead_id = $this->db->insert('leads', $lead);
 
-        date_default_timezone_set('America/New_York');
-    }
+		// Insert into remote db
+		if($lead_id) {
 
-	public function submitClient($fname, $lname, $email, $phone, $address, $city, $state, $zip, $leadid, $iref) {
-
-		$today = date("Y-m-d");
-
-		$data = array(
-		   'ht_date' => $today,
-		   'fname' => $fname,
-		   'lname' => $lname,
-		   'email' => $email,
-		   'phone' => $phone,
-		   'address1' => $address,
-		   'city' => $city,
-		   'state' => $state,
-		   'zipcode' => $zip,
-		   'ht_leadid' => $leadid,
-		   'iref' => $iref
-		);
-
-		if ($data !== FALSE) {
-			try {
-
-				$this->secondDB = $this->load->database('second', TRUE);
-
-				$this->secondDB->insert('ht_form', $data);
-
-				$this->secondDB->close();
-
-				return TRUE;
-			}
-			catch(Exception $e) {
-				 return FALSE;
-			}
+			// Update lead array to match required structure/naming of remote db
+			$lead['ht_leadid'] = $lead_id;
+			$lead['ht_date'] = $lead['date'];
+			unset($lead['date']);  // Remote db does not have a date column
+			$this->secondDB = $this->load->database('remote', TRUE);
+			$remote_lead_id = $this->secondDB->insert('ht_form', $lead);
 		}
-		else
-        {
-            return FALSE;
-        }
-
-	}
-
-	public function submitInternal($fname, $lname, $email, $phone, $address, $city, $state, $zip, $iref) {
-
-		$today = date("Y-m-d");
-
-		$data = array(
-		   'date' => $today,
-		   'fname' => $fname,
-		   'lname' => $lname,
-		   'email' => $email,
-		   'phone' => $phone,
-		   'address1' => $address,
-		   'city' => $city,
-		   'state' => $state,
-		   'zipcode' => $zip,
-		   'iref' => $iref
-		);
-
-		if ($data !== FALSE) {
-			try {
-				$this->load->database();
-
-				$this->db->insert('leads', $data);
-				$insert_id = $this->db->insert_id();
-
-				return $insert_id;
-			}
-			catch(Exception $e) {
-				return FALSE;
-			}
-		}
-		else
-        {
-            return FALSE;
-        }
 
 	}
 

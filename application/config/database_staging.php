@@ -64,21 +64,21 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-$db['second']['hostname'] = 'www.thermospas.com';
-$db['second']['username'] = 'thermosp_testdev';
-$db['second']['password'] = 'C36k4TE97wrs';
-$db['second']['database'] = 'thermosp_thermospascom';
-$db['second']['dbdriver'] = 'mysqli';
-$db['second']['dbprefix'] = '';
-$db['second']['pconnect'] = FALSE;
-$db['second']['db_debug'] = FALSE;
-$db['second']['cache_on'] = FALSE;
-$db['second']['cachedir'] = '';
-$db['second']['char_set'] = 'utf8';
-$db['second']['dbcollat'] = 'utf8_general_ci';
-$db['second']['swap_pre'] = '';
-$db['second']['autoinit'] = TRUE;
-$db['second']['stricton'] = FALSE;
+$db['remote']['hostname'] = 'www.thermospas.com';
+$db['remote']['username'] = 'thermosp_testdev';
+$db['remote']['password'] = 'C36k4TE97wrs';
+$db['remote']['database'] = 'thermosp_thermospascom';
+$db['remote']['dbdriver'] = 'mysqli';
+$db['remote']['dbprefix'] = '';
+$db['remote']['pconnect'] = FALSE;
+$db['remote']['db_debug'] = FALSE;
+$db['remote']['cache_on'] = FALSE;
+$db['remote']['cachedir'] = '';
+$db['remote']['char_set'] = 'utf8';
+$db['remote']['dbcollat'] = 'utf8_general_ci';
+$db['remote']['swap_pre'] = '';
+$db['remote']['autoinit'] = TRUE;
+$db['remote']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
