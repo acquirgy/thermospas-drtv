@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'thermospa.dnadv.net';
+$config['base_url'] = 'http://thermospa.dnadv.net';
 
 /*
 |--------------------------------------------------------------------------
