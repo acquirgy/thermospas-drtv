@@ -76,6 +76,36 @@ class MY_Controller extends CI_Controller
         //Start session
         session_start();
 
+        // Deal with admin side
+        if ($this->uri->segment(1) == 'admin') {
+
+            // User is not authenticated, but is trying to login
+            if ($this->uri->segment(2) == 'authentication') {
+
+                // Allow them to continue to the view, nothing further needs to be done, the method in controller will handle
+
+            } else if ($this->session->userdata('user_id')) {
+
+                // User is authenticated
+                $this->authenticated_user = $this->user_model->get($this->session->userdata('user_id'));
+
+                // Make sure this user has the admin role
+                if($this->authenticated_user['role'] != 'admin') {
+                    $this->session->set_flashdata('error','You are not authenticated to view this page.');
+                    redirect('/admin/authentication/login');
+                }
+
+            // If person is at a method wihtout having a user id set in session.. redirect them to login
+            } else {
+
+                $this->session->unset_userdata();
+                $this->session->set_flashdata('error','You are not authenticated to view this page.');
+                redirect('/admin/authentication/login');
+
+            }
+
+        }
+
     }
 
     /* --------------------------------------------------------------
@@ -122,45 +152,10 @@ class MY_Controller extends CI_Controller
 
             if(!empty($this->view)) {
                 $view = $this->view;
-            } else if($this->uri->segment(1) == 'admin' || $this->uri->segment(1) == 'client') {
+            } else if($this->uri->segment(1) == 'admin') {
                 $view = $this->router->directory . $this->router->class . '/' . $this->router->method;
             } else {
                 $view = 'front/' . $this->router->directory . $this->router->class . '/' . $this->router->method;
-            }
-
-            // Load the view into $yield
-            $data['yield'] = $this->load->view($view, $this->data, TRUE);
-
-
-            // If we didn't specify the layout, try to guess it
-            if (!isset($this->layout))
-            {
-                if (file_exists(APPPATH . 'views/layouts/' . $this->router->class . '.php'))
-                {
-                    $layout = 'layouts/' . $this->router->class;
-                }
-                else
-                {
-                    $layout = 'layouts/application';
-                }
-            }
-
-            // If we did, use it
-            else if ($this->layout !== FALSE)
-            {
-                $layout = $this->layout;
-            }
-
-            // If $layout is FALSE, we're not interested in loading a layout, so output the view directly
-            if ($layout == FALSE)
-            {
-                $this->output->set_output($data['yield']);
-            }
-
-            // Otherwise? Load away :)
-            else
-            {
-                $this->load->view($layout, $data);
             }
         }
     }

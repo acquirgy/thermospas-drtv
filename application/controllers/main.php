@@ -23,8 +23,8 @@ class Main extends CI_Controller {
   public function confirmation() {
 
 		$data['lead'] = array(
-			'fname' => $this->input->post('first_name'),
-			'lname' => $this->input->post('last_name'),
+			'fname' => $this->input->post('fname'),
+			'lname' => $this->input->post('lname'),
 			'email' => $this->input->post('email'),
 			'phone' => formatPhone($this->input->post('phone')),
 			'address1' => $this->input->post('address'),
@@ -43,6 +43,10 @@ class Main extends CI_Controller {
 		}
 
 	}
+
+  // public function bcrypt_pass($pass) {
+  //   echo $this->bcrypt->hash_password($pass); exit();
+  // }
 
 
 }

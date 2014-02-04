@@ -41,10 +41,10 @@
 									<p>Just fill out the quick form below to receive your FREE information. No obligation!</p>
 									<div class="row">
 										<div class="row-area">
-											<input id="FirstName" class="text1 required" type="text" title="First Name*" placeholder="First Name*" >
+											<input id="fname" class="text1 required" type="text" title="First Name*" placeholder="First Name*" name="fname">
 										</div>
 										<div class="row-area">
-											<input id="LastName" class="text2 required" type="text" title="Last Name*" placeholder="Last Name*">
+											<input id="lname" class="text2 required" type="text" title="Last Name*" placeholder="Last Name*" name="lname">
 										</div>
 									</div>
 									<div class="row">

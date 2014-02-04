@@ -40,9 +40,6 @@
 
 $route['default_controller'] = "main";
 $route['404_override'] = '';
-$route['admin'] = 'admin/orders';
-$route['dr'] = 'main/alt';
-$route['client'] = 'client/files/order_exports';
 
 
 /* End of file routes.php */
