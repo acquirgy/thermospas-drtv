@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '198.61.248.196';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'jqdc7y49ryp2hfh';
+$db['default']['password'] = 'PrAswubu6put';
 $db['default']['database'] = 'thermospas';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
