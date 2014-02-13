@@ -19,7 +19,7 @@
       </ul>
     </div>
   </div>
-  <div class="pure-u-1" id="main">
+  <div class="pure-u-1 " id="main">
     <div class="header">
       <h1>New User</h1>
       <h2>Add a new user</h2>

@@ -27,7 +27,7 @@
       </ul>
     </div>
   </div>
-  <div class="pure-u-1" id="main">
+  <div class="pure-u-1 content" id="main">
     <div class="header">
       <h1>Leads for Thermospas DRTV</h1>
     </div>
