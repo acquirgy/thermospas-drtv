@@ -21,7 +21,6 @@
  <div class="pure-g-r" id="layout">
   <div class="pure-u" id="menu">
     <div class="pure-menu pure-menu-open pure-menu-horizontal">
-
       <ul>
         <li class="menu-item-divided"><a href="/admin/users">Manage Users</a></li>
         <li class="menu-item-divided"><a href="/admin/authentication/logout">Logout</a></li>
