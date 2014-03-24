@@ -226,7 +226,7 @@
 							<li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
 							<li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
 						</ul>
-						<p>&copy;2013 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
+						<p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
@@ -418,7 +418,7 @@
                 </div>
             </div>
         </div>
-        <div id="popup2" class="lightbox">
+<div id="popup2" class="lightbox">
             <div class="heading">
                 <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
                     close</span>
@@ -426,34 +426,22 @@
                     Terms and Conditions</h2>
             </div>
             <div class="area">
+                <h3>
+                    $1,000 Bonus Gifts Breakdown&#42;</h3>
+                <br />
                 <div class="frame">
-                    <h4>$250 Gift Card:</h4>
-                    <p>To receive the $250 gift card from ThermoSpas, all homeowners/decision makers must be present for an on-site, 90-minute <em>ThermoSpas Home Experience</em> presentation and site evaluation for a single family residence by a certified ThermoSpas hot tub expert servicing your area. After the conclusion of the presentation and site evaluation, homeowners will receive a confirmation email with notification that their $250 gift card has been mailed to their provided mailing address. $250 gift card is only available during the promotional period, November 13, 2013 through December 08, 2013 or dates otherwise noted, and for the first 250 <em>Home Experiences</em> completed during that time.</p>
-                    <p>The provided gift cards are in no way affiliated with ThermoSpas, nor are they participants, sponsors or co-sponsors of this promotional program and are not liable for any alleged or actual claims related to this promotion. All gift cards are subject to the terms and conditions stated on the gift card or on the gift card’s website.</p>
-                    <h4>ThermoSpas Home Experience Service Areas:</h4>
-                    <p>Not all areas within a city are serviceable. To confirm if your zip code is covered please call ThermoSpas customer service at 800-876-0158. </p>
-                   <h4>ThermoSpas Home Experience:</h4>
-                    <p>Unlike our competitors that require an advanced purchase, <em>ThermoSpas Home Experience</em> is FREE (a $150 value) and includes absolutely no obligation to purchase. A factory trained ThermoSpas technician will provide the following:</p>
-                    <p>Full Site Inspection</p>
-                    <ul>
-                        <li>Recommendation on the best location for your hot tub</li>
-                        <li>Measure passageways for clearance and accessibility</li>
-                        <li>Inspect decking and flooring for adequate structural support</li>
-                        <li>Evaluate electrical requirements for specific spas of interest</li>
-                        <li>Discuss cost saving ideas on location and design of your spa</li>
-                        <li>Offer safety suggestions on installation and usage</li>
-                        <li>Provide a written report that will assist in shopping, no matter which hot tub brand you eventually choose</li>
-                    </ul>
-                    <p>Complete Spa Education</p>
-                    <ul>
-                        <li>Suggest an ideal size and seating configuration</li>
-                        <li>Explain all the new technologies today that offer energy saving ideas</li>
-                        <li>Show new advances that minimize maintenance requirements</li>
-                        <li>Explain how you may qualify for tax incentives on any special therapy needs</li>
-                        <li>Discuss different methods of manufacturing and products within the industry</li>
-                        <li>Provide pricing on a custom spa, built to your needs that is guaranteed</li>
-                        <li>For 60 days from the date of your <em>Home Experience</em></li>
-                    </ul>
+                    <p>
+                        <strong>&#36;400 Cash Discount - </strong>Save &#36;400 on any Designer Series Spa</p>
+                    <p>
+                        <strong>Free Delivery & Installation -</strong> A &#36;450 value that includes a
+                        full inspection and complete spa education</p>
+                    <p>
+                        <strong>Free Chemical Starter Kit -</strong> A &#36;150 value that includes everything
+                        you need to start enjoying your hot tub immediately</p>
+                    <p style="font-style: italic">
+                        &#42;&#36;1,000 Bonus Gifts are only valid during initial visit and may not be combined
+                        with any other offer. Discount only applies to the purchase of a Designer Series
+                        hot tub.</p>
                 </div>
             </div>
         </div>
