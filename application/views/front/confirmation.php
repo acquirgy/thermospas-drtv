@@ -87,7 +87,7 @@
 							<li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
 							<li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
 						</ul>
-						<p>&copy;2013 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
+						<p>&copy;©2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
@@ -281,16 +281,16 @@
         <div id="popup2" class="lightbox">
             <div class="heading">
                 <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-                    close</span>
+                close</span>
                 <h2>Terms and Conditions</h2>
             </div>
             <div class="area">
                 <h3>$1,000 Bonus Gifts Breakdown&#42;</h3><br />
                 <div class="frame">
-                <p><strong>&#36;400 Cash Discount - </strong>Save &#36;400 on any Designer Series Spa</p>
-                <p><strong>Free Delivery & Installation -</strong> A &#36;450 value that includes a full inspection and complete spa education</p>
-                <p><strong>Free Chemical Starter Kit -</strong> A &#36;150 value that includes everything you need to start enjoying your hot tub immediately</p>
-                <p style="font-style: italic">&#42;&#36;1,000 Bonus Gifts are only valid during initial visit and may not be combined with any other offer. Discount only applies to the purchase of a Designer Series hot tub.</p>
+                    <p><strong>&#36;400 Cash Discount - </strong>Save &#36;400 on any Designer Series Spa</p>
+                    <p><strong>Free Delivery & Installation -</strong> A &#36;450 value that includes a full inspection and complete spa education</p>
+                    <p><strong>Free Chemical Starter Kit -</strong> A &#36;150 value that includes everything you need to start enjoying your hot tub immediately</p>
+                    <p style="font-style: italic">&#42;&#36;1,000 Bonus Gifts are only valid during initial visit and may not be combined with any other offer. Discount only applies to the purchase of a Designer Series hot tub.</p>
                 </div>
             </div>
         </div>
