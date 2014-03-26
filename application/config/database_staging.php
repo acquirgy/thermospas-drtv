@@ -65,8 +65,8 @@ $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
 $db['remote']['hostname'] = 'www.thermospas.com';
-$db['remote']['username'] = 'thermosp_testdev';
-$db['remote']['password'] = 'C36k4TE97wrs';
+$db['remote']['username'] = 'thermosp';
+$db['remote']['password'] = '*htpassth3rmo';
 $db['remote']['database'] = 'thermosp_thermospascom';
 $db['remote']['dbdriver'] = 'mysqli';
 $db['remote']['dbprefix'] = '';
