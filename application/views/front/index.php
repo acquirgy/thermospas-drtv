@@ -226,7 +226,7 @@
 							<li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
 							<li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
 						</ul>
-						<p>&copy;©2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
+						<p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
