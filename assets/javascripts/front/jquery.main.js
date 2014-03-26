@@ -20,7 +20,7 @@ function initPhoneField() {
 function initFormFocus() {
     var animSpeed = 350;
     var form = jQuery('.form-reg fieldset');
-    var input = jQuery('#FirstName');
+    var input = jQuery('#fname');
     if (input.length) {
         jQuery('a.focusForm').each(function () {
             var link = jQuery(this);
