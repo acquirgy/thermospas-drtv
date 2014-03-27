@@ -45,6 +45,7 @@ function initValidation() {
     var successClass = 'success';
     var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var regPhone = /^[0-9\-\(\)\ ]+$/;
+    var regZip = /^[0-9]{5}(?:-[0-9]{4})?$/;
 
     jQuery('form.form-reg').each(function () {
         var form = jQuery(this);
@@ -82,6 +83,10 @@ function initValidation() {
             // something selected
             if (currentObject.hasClass('required-select')) {
                 setState(currentParent, currentObject, currentObject.get(0).selectedIndex === 0);
+            }
+            // correct zip format
+            if (currentObject.hasClass('required-zip')) {
+                setState(currentParent, currentObject, !regZip.test(currentObject.val()));
             }
         }
 

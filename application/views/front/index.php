@@ -112,7 +112,7 @@
 											<option>UT</option>
 										</select>
 										<div class="row-area">
-											<input class="text4 required-number" type="text" placeholder="Zip*" name="zip">
+											<input class="text4 required-zip" type="text" placeholder="Zip*" name="zip">
 										</div>
 									</div>
 									<div class="row">
