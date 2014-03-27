@@ -44,6 +44,27 @@ class Main extends CI_Controller {
 
 	}
 
+  public function test() {
+
+    $data['lead'] = array(
+      'fname' => 'test',
+      'lname' => 'test',
+      'email' => 'test',
+      'phone' => formatPhone(8888888888),
+      'address1' => 'test',
+      'city' => 'test',
+      'state' => 'test',
+      'zipcode' => 'test',
+      'iref' => 'test'
+    );
+
+    $data['leadid'] = $this->lead_model->insert($data['lead']);
+
+    echo "<pre>";
+    print_r($data);
+
+  }
+
   // public function bcrypt_pass($pass) {
   //   echo $this->bcrypt->hash_password($pass); exit();
   // }
