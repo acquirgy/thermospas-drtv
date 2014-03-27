@@ -14,6 +14,7 @@ jQuery(function () {
 
 function initPhoneField() {
     jQuery('#Phone').mask("(999) 999-9999");
+    jQuery('#Zip').mask("99999");
 }
 
 // form focus init
