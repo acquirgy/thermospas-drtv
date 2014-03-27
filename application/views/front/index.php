@@ -221,7 +221,7 @@
 						<li><img src="/assets/images/img10.png" alt="image description"></li>
 						<li><img src="/assets/images/img11.png" alt="image description"></li>
 					</ul>
-					<p class="call">Speak to a friendly Sales Associate about a FREE site inspection! <strong>800.555.1212</strong></p>
+					<p class="call">Speak to a friendly Sales Associate about a FREE site inspection! <strong>800.985.5084</strong></p>
 					<div class="txt">
 						<ul class="bottom-nav">
 							<li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
