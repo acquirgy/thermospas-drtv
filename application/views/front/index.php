@@ -141,7 +141,7 @@
 						<div class="promo-txt">
 							<h2>Get the Most Out of Life!</h2>
 							<p>ThermoSpas are <strong>custom-built just for you</strong> and can be enjoyed day or night, indoors or outdoors. And since ThermoSpas require less maintenance and comes with one of the best warranties in the hot tub industry, you can spend more time <strong>enjoying your personal at-home retreat</strong> with family, friends, for private time, or a romantic getaway.</p>
-							<h2>Feel More Relaxed &amp; Rejuvinated!</h2>
+							<h2>Feel More Relaxed &amp; Rejuvenated!</h2>
 							<p>There is no denying how relaxing a ThermoSpas hot tub can be with the calming sensation of warm, bubbling water and <strong>up to 160</strong> specially-designed, therapeutic water jets. ThermoSpas is also recognized by the <em>Arthritis Foundation</em> for pain relief and many other health benefits.</p>
 						</div>
 					</div>
