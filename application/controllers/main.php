@@ -27,9 +27,6 @@ class Main extends CI_Controller {
 			'lname' => $this->input->post('lname'),
 			'email' => $this->input->post('email'),
 			'phone' => formatPhone($this->input->post('phone')),
-			'address1' => $this->input->post('address'),
-			'city' => $this->input->post('city'),
-			'state' => $this->input->post('state'),
 			'zipcode' => $this->input->post('zip'),
 			'iref' =>  $this->session->userdata('iref')
 		);
@@ -44,30 +41,33 @@ class Main extends CI_Controller {
 
 	}
 
-  public function test() {
 
-    $data['lead'] = array(
-      'fname' => 'test',
-      'lname' => 'test',
-      'email' => 'test',
-      'phone' => formatPhone(8888888888),
-      'address1' => 'test',
-      'city' => 'test',
-      'state' => 'test',
-      'zipcode' => 'test',
-      'iref' => 'test'
-    );
+  public function update_lead() {
 
-    $data['leadid'] = $this->lead_model->insert($data['lead']);
+    // First make sure the lead exists before trying to update it
+    if($lead = $this->lead_model->get($this->input->post('lead_id'))) {
 
-    echo "<pre>";
-    print_r($data);
+      $lead_update = array(
+        'address1' => $this->input->post('address1'),
+        'address2' => $this->input->post('address2'),
+        'city' => $this->input->post('city'),
+        'state' => $this->input->post('state'),
+        'zipcode' => $this->input->post('zipcode'),
+        'comments' => 'send_brochure'
+      );
+
+      $this->lead_model->update($lead['id'], $lead_update);
+
+      $data['fname'] = $lead['fname'];
+      $data['lname'] = $lead['lname'];
+
+      $this->load->view('front/confirmation2', $data);
+
+    } else {
+      $this->load->view('front/error');
+    }
 
   }
-
-  // public function bcrypt_pass($pass) {
-  //   echo $this->bcrypt->hash_password($pass); exit();
-  // }
 
 
 }

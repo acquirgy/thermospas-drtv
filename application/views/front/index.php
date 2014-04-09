@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head runat="server">
-    <meta charset="utf-8">
-    <title>ThermoSpas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link media="all" rel="stylesheet" href="/assets/stylesheets/front/fancybox.css">
-    <link media="all" rel="stylesheet" href="/assets/stylesheets/front/all.css">
-    <script type="text/javascript" src="/assets/javascripts/front/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/assets/javascripts/front/jquery.main.js"></script>
-    <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
-    <link href="/assets/stylesheets/front/myStyles.css" rel="stylesheet" type="text/css" />
+<head>
+  <meta charset="utf-8">
+  <title>ThermoSpas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link media="all" rel="stylesheet" href="/assets/stylesheets/front/fancybox.css">
+  <link media="all" rel="stylesheet" href="/assets/stylesheets/front/all.css">
+  <script type="text/javascript" src="/assets/javascripts/front/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="/assets/javascripts/front/jquery.main.js"></script>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+  <link href="/assets/stylesheets/front/myStyles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <!-- page -->
 	<div id="wrapper">
+    <div id="topspace">
+      <!-- logotype -->
+      <h1 class="logo"><a href="#">ThermoSpas - Designed to Improve Your Life</a></h1>
+      <div class="phone-top">
+       <p ><strong>Have Questions?</strong></p>
+        <p>1-800-985-5084</p>
+     </div>
+     <div class="partners" >
+      <img src="/assets/images/30yr.jpg" alt="image description" />
+      <img src="/assets/images/img10.png" alt="image description" />
+      <img src="/assets/images/img11.png" alt="image description" />
+    </div>
+  </div>
 			<!-- header -->
 			<header id="header">
 				<!-- main image -->
@@ -23,105 +35,47 @@
 				<div class="header-frame">
 					<div class="header-holder">
 						<!-- logotype -->
-						<h1 class="logo"><a href="#">ThermoSpas - Designed to Improve Your Life</a></h1>
 						<div class="top-block">
-							<div class="arrow-left"></div>
 							<div class="arrow-right">
 								<!-- main promo -->
 								<div class="main-promo">
-									<strong class="title">Get Your <span>FREE</span> DVD &amp; Brochure!</strong>
-									Plus, Right Now <strong>SAVE an Additional <span class="curr">$</span>1,000</strong> with Bonus Gifts!
+                  <strong class="title">Get Your <span>FREE</span> DVD, Brochure, &amp; Backyard Resorts Guide!</strong>
+									Plus, Right Now get <strong><span class="curr">$</span>1,000 in Savings</strong>
 								</div>
 							</div>
 							<!-- registration form -->
 							<?= form_open('main/confirmation', array('class'=>'form-reg')) ?>
-								<fieldset>
-									<legend>Register form</legend>
-									<strong class="title">Fast, Easy &amp; FREE!</strong>
-									<p>Just fill out the quick form below to receive your FREE information. No obligation!</p>
-									<div class="row">
-										<div class="row-area">
-											<input id="fname" class="text1 required" type="text" title="First Name*" placeholder="First Name*" name="fname">
-										</div>
-										<div class="row-area">
-											<input id="lname" class="text2 required" type="text" title="Last Name*" placeholder="Last Name*" name="lname">
-										</div>
-									</div>
-									<div class="row">
-										<input type="text" value="" placeholder="Email" name="email">
-									</div>
-									<div class="row row-area">
-										<input id="Phone" type="text" class="required-number" placeholder="Phone*" name="phone">
-									</div>
-									<div class="row">
-										<input type="text" placeholder="Address" name="address">
-									</div>
-									<div class="row">
-										<input class="text3" type="text" placeholder="City" name="city">
-										<select class="select" name="state">
-											<option>State</option>
-											<option value="AL">AL</option>
-                      <option value="AK">AK</option>
-                      <option value="AZ">AZ</option>
-                      <option value="AR">AR</option>
-                      <option value="CA">CA</option>
-                      <option value="CO">CO</option>
-                      <option value="CT">CT</option>
-                      <option value="DE">DE</option>
-                      <option value="DC">DC</option>
-                      <option value="FL">FL</option>
-                      <option value="GA">GA</option>
-                      <option value="HI">HI</option>
-                      <option value="ID">ID</option>
-                      <option value="IL">IL</option>
-                      <option value="IN">IN</option>
-                      <option value="IA">IA</option>
-                      <option value="KS">KS</option>
-                      <option value="KY">KY</option>
-                      <option value="LA">LA</option>
-                      <option value="ME">ME</option>
-                      <option value="MD">MD</option>
-                      <option value="MA">MA</option>
-                      <option value="MI">MI</option>
-                      <option value="MN">MN</option>
-                      <option value="MS">MS</option>
-                      <option value="MO">MO</option>
-                      <option value="MT">MT</option>
-                      <option value="NE">NE</option>
-                      <option value="NV">NV</option>
-                      <option value="NH">NH</option>
-                      <option value="NJ">NJ</option>
-                      <option value="NM">NM</option>
-                      <option value="NY">NY</option>
-                      <option value="NC">NC</option>
-                      <option value="ND">ND</option>
-                      <option value="OH">OH</option>
-                      <option value="OK">OK</option>
-                      <option value="OR">OR</option>
-                      <option value="PA">PA</option>
-                      <option value="RI">RI</option>
-                      <option value="SC">SC</option>
-                      <option value="SD">SD</option>
-                      <option value="TN">TN</option>
-                      <option value="TX">TX</option>
-                      <option value="UT">UT</option>
-                      <option value="VT">VT</option>
-                      <option value="VA">VA</option>
-                      <option value="WA">WA</option>
-                      <option value="WV">WV</option>
-                      <option value="WI">WI</option>
-                      <option value="WY">WY</option>
-										</select>
-										<div class="row-area">
-											<input id="Zip" class="text4 required-zip" type="text" placeholder="Zip*" name="zip">
-										</div>
-									</div>
-									<div class="row">
-										<input type="submit" value="Get Your FREE DVD &amp; Brochure NOW!">
-									</div>
-									<span class="req">* required</span>
-								</fieldset>
-							 <?= form_close() ?>
+              <fieldset>
+                <legend>Register form</legend>
+                <strong class="title">Fast, Easy &amp; FREE!</strong>
+                <p class="getstarted">Just fill out the quick form below to receive your FREE information. No obligation!</p>
+                <p class="req">* required</p>
+                <div class="row">
+                  <div class="row-area">
+                    <input name="fname" id="fname" class="text1 required" type="text" placeholder="First Name*" title="First Name*" />
+                  </div>
+                  <div class="row-area">
+                    <input name="lname" class="text2 required" type="text" placeholder="Last Name*" title="Last Name*" />
+                  </div>
+                </div>
+                <div class="row row-area">
+                  <input id="Phone" name="phone" type="text" class="required-number" placeholder="Phone*" title="Phone*" />
+                </div>
+                <div class="row row-area">
+                  <input id="Zip" name="zip" class="required" type="text" placeholder="Zip Code*" title="Zip Code*" />
+                </div>
+                <div class="row row-area">
+                  <input type="text" name="email" value="Email" placeholder="Email" />
+                </div>
+                <div class="row">
+                  <input type="submit" value="Get Your FREE DVD &amp; Brochure NOW!" />
+                </div>
+                <div id="form-links" class="row">
+                  <a class="lightbox-opener" href="#popup1">Your Info is Secure</a>&nbsp;|&nbsp;
+                  <a class="lightbox-opener" href="#popup1">Privacy Policy</a>
+                </div>
+              </fieldset>
+              <?= form_close() ?>
 						</div>
 					</div>
 				</div>
@@ -132,104 +86,74 @@
 					<div class="top-promo">
 						<!-- promo disk -->
 						<div class="promo-disk">
-							<img src="/assets/images/img02.png" alt="image description">
-							<a class="logo2" href="#">ThermoSpas</a>
-							<p>builds the highest quality, quietest, most luxurious &amp; energy efficient spas and hot tubs in the world.</p>
-							<a class="link focusForm" href="#">Get your FREE DVD &amp; Brochure!</a>
+							<img src="/assets/images/backyard-resorts.png" alt="image description">
+
 						</div>
 						<!-- promo text -->
 						<div class="promo-txt">
-							<h2>Get the Most Out of Life!</h2>
-							<p>ThermoSpas are <strong>custom-built just for you</strong> and can be enjoyed day or night, indoors or outdoors. And since ThermoSpas require less maintenance and comes with one of the best warranties in the hot tub industry, you can spend more time <strong>enjoying your personal at-home retreat</strong> with family, friends, for private time, or a romantic getaway.</p>
-							<h2>Feel More Relaxed &amp; Rejuvenated!</h2>
-							<p>There is no denying how relaxing a ThermoSpas hot tub can be with the calming sensation of warm, bubbling water and <strong>up to 160</strong> specially-designed, therapeutic water jets. ThermoSpas is also recognized by the <em>Arthritis Foundation</em> for pain relief and many other health benefits.</p>
+							<h2>Wouldn’t it be great to get away to a luxurious spa resort <strong>whenever you felt like it?</strong></h2>
+							<p>Well, you can! Find out how easy and affordable it can be for you to create and enjoy a beautiful backyard resort – <em><strong>right in your own backyard</strong></em> – with a ThermoSpas home spa, customized specifically for you! </p>
+							<p>Get started right now with a <em><strong>FREE</em></strong> DVD, informational brochure, and complimentary Backyard Resorts Guide packed with ideas to help you create your own personal backyard resort. <em>PLUS</em>, get <em><strong>$1,000 in savings!</strong></em> </p>
 						</div>
 					</div>
+                    <div class="features-holder">
+            <!-- features -->
+            <div class="features">
+              <strong class="title">As seen on:</strong>
+              <ul class="features-list">
+                <li><img src="/assets/images/img05.jpg" alt="image description"></li>
+                <li><img src="/assets/images/img07.jpg" alt="image description"></li>
+                <li><img src="/assets/images/img08.jpg" alt="image description"></li>
+              </ul>
+            </div>
+            <div class="btn-get">
+              <a href="#" class="focusForm">Get your <span>FREE</span> DVD, Brochure, Guide, and $1,000 Savings!</a>
+            </div>
+          </div>
 					<!-- advantage -->
 					<div class="advantage-block">
-						<h2>A Complete Line of Custom-Built Hot Tubs and Spas For Every Need</h2>
-						<!-- tabs -->
-						<div class="tabs">
-							<div class="tab-content">
-								<div id="tab1">
-									<a href="#"><img src="/assets/images/img02.jpg" alt="image description"></a>
-								</div>
-								<div id="tab2">
-									<a href="#"><img src="/assets/images/img03.jpg" alt="image description"></a>
-								</div>
-								<div id="tab3">
-									<a href="#"><img src="/assets/images/img04.jpg" alt="image description"></a>
-								</div>
-							</div>
-							<ul class="tabset">
-								<li>
-									<a href="#tab1">
-										<strong class="title">Health</strong>
-										ThermoSpas is dedicated to creating the most beneficial hydrotherapy hot tubs for arthritis, pain relief, stress, sleep problems, headaches, and more.
-									</a>
-								</li>
-								<li class="active">
-									<a href="#tab2">
-										<strong class="title">Fitness</strong>
-										ThermoSpas has a full line of fitness hot tubs and swim spas designed to provide a comprehensive, low-impact workout – and an amazing massage after.
-									</a>
-								</li>
-								<li>
-									<a href="#tab3">
-										<strong class="title">Lifestyle</strong>
-										Have fun, reconnect with family or throw a party and discover why our customers are the happpiest home owners on the block.
-									</a>
-								</li>
-							</ul>
-						</div>
+						<span class="title">What Real Customers Are Saying</span>
+						<!-- videos -->
+						<div class="boxes">
+              <div class="box">
+                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  Isaac and Isa Matthews
+              </div>
+              <div class="box">
+                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  Dr. Michael and Shannon Holloway
+              </div>
+              <div class="box">
+                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  Todd Burnap
+              </div>
+              <div class="box">
+                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  Ethan and Angie Colchiski
+              </div>
+            </div>
 					</div>
-					<div class="features-holder">
-						<!-- features -->
-						<div class="features">
-							<strong class="title">Featured on Many Hit Shows:</strong>
-							<ul class="features-list">
-								<li><img src="/assets/images/img05.jpg" alt="image description"></li>
-								<li><img src="/assets/images/img06.jpg" alt="image description"></li>
-								<li><img src="/assets/images/img07.jpg" alt="image description"></li>
-								<li><img src="/assets/images/img08.jpg" alt="image description"></li>
-							</ul>
-						</div>
-						<div class="btn-get">
-							<a href="#" class="focusForm">Get Your <span>FREE</span> DVD &amp; Brochure Now!</a>
-						</div>
-					</div>
-					<!-- testimonials -->
-					<div class="testimonials">
-						<img src="/assets/images/img09.jpg" alt="image description">
-						<h2>What Real Customers Are Saying</h2>
-						<div class="quotes">
-							<blockquote>
-								<q>I would like to say that I would recommend ThermoSpas for whatever reason – whether it be entertainment, stress or therapy. It has helped my husband and I immeasurably!”</q>
-								<cite>– Mrs. Christine L. Silva</cite>
-							</blockquote>
-							<blockquote>
-								<q>Our physical health, our sense of spiritual well being, a significantly lower stress level, and an improved love life are all benefits that both my wife and I noticed right away.”</q>
-								<cite>– Andrew and Doreen Laird</cite>
-							</blockquote>
-						</div>
-					</div>
+
 				</section>
 				<!-- footer -->
-				<div id="footer">
-					<!-- partners -->
-					<ul class="partners-list">
-						<li><img src="/assets/images/img10.png" alt="image description"></li>
-						<li><img src="/assets/images/img11.png" alt="image description"></li>
-					</ul>
-					<p class="call">Speak to a friendly Sales Associate about a FREE site inspection! <strong>800.985.5084</strong></p>
-					<div class="txt">
-						<ul class="bottom-nav">
-							<li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
-							<li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
-						</ul>
-						<p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
-					</div>
-				</div>
+        <div id="footer">
+         <div class="partners-bottom bottom-text">
+          <p class="phone mobileonly"><strong>Get Your Free DVD, Brochure, and Guide Now!</strong><br /><span class="call">Call Today <a href="tel:1-800-985-5084" style="text-decoration: underline;">1-800-985-5084</a></span></p>
+          <p class="phone nonmobile" ><strong>Get Your Free DVD, Brochure, and Guide Now!</strong><br /><span class="call">Call Today 1-800-985-5084</span></p>
+        </div>
+        <div class="partners-bottom" >
+          <img src="/assets/images/img10.png" alt="image description" />
+          <img src="/assets/images/img11.png" alt="image description" />
+        </div>
+
+        <div class="txt">
+          <ul class="bottom-nav">
+            <li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
+            <li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
+          </ul>
+          <p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
+        </div>
+      </div>
 			</div>
 			</div>
     <!-- popup -->

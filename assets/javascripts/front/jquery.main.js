@@ -8,7 +8,7 @@ jQuery(function () {
     initValidation();
     initLightbox();
     initInputs();
-    initTabs();
+   // initTabs();
     jQuery('input, textarea').placeholder();
 });
 
@@ -48,7 +48,7 @@ function initValidation() {
     var regPhone = /^[0-9\-\(\)\ ]+$/;
     var regZip = /^[0-9]{5}(?:-[0-9]{4})?$/;
 
-    jQuery('form.form-reg').each(function () {
+    jQuery('form.form-reg, form.form-reg2').each(function () {
         var form = jQuery(this);
         var successFlag = true;
         var inputs = form.find('input:text, textarea, select');
@@ -109,13 +109,13 @@ function initValidation() {
 }
 
 // content tabs init
-function initTabs() {
-    jQuery('ul.tabset').contentTabs({
-        addToParent: true,
-        tabLinks: 'a',
-        event: 'mouseenter'
-    });
-}
+// function initTabs() {
+//     jQuery('ul.tabset').contentTabs({
+//         addToParent: true,
+//         tabLinks: 'a',
+//         event: 'mouseenter'
+//     });
+// }
 
 // fancybox modal popup init
 function initLightbox() {

@@ -68,16 +68,16 @@
       <tbody>
         <?php foreach($leads as $lead) { ?>
         <tr>
-          <td><?=$lead->date?></td>
-          <td><?=$lead->email?></td>
-          <td><?=$lead->zipcode?></td>
-          <td><?=$lead->fname?></td>
-          <td><?=$lead->lname?></td>
-          <td><?=$lead->address1?></td>
-          <td><?=$lead->city?></td>
-          <td><?=$lead->state?></td>
-          <td><?=$lead->phone?></td>
-          <td><?=$lead->iref?></td>
+          <td><?=$lead['date']?></td>
+          <td><?=$lead['email']?></td>
+          <td><?=$lead['zipcode']?></td>
+          <td><?=$lead['fname']?></td>
+          <td><?=$lead['lname']?></td>
+          <td><?=$lead['address1']?></td>
+          <td><?=$lead['city']?></td>
+          <td><?=$lead['state']?></td>
+          <td><?=$lead['phone']?></td>
+          <td><?=$lead['iref']?></td>
         </tr>
         <?php } ?>
       </tbody>

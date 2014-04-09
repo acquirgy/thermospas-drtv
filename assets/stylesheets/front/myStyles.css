@@ -29,3 +29,92 @@ p.call strong {
 	line-height: 16px;
 	font-size: 12px;
 }
+
+.lightbox-opener {color: #FFFFFF;}
+
+
+/******Confirm Page ******/
+.form-reg2
+{
+    color: #1a89c5;
+}
+
+.form-reg2 input[type="text"] {
+  margin: 0px auto;
+  border: 1px solid rgb(141, 182, 206);
+  padding: 0 4px;
+  height: 34px; line-height: 34px;
+  width: 95%;
+  background: none repeat scroll 0% 0% rgb(255, 255, 255);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-reg2 .error input, .form-reg2 .error .select-area{
+  border-color: #f00;
+  background:#fdd8d8;
+}
+
+.mail-form-wrap {
+  background-color: #E8E8E8;
+  overflow: hidden;
+  padding: 10px 10px 5px 10px;
+}
+
+.mail-form-col {
+  width: 50%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+#send-now input[type="submit"]
+{
+  display: block;
+  margin: 0 auto;
+  border: 0px none;
+  overflow: hidden;
+  padding: 0px;
+  width: 335px;
+  height: 74px;
+  background: transparent url('/assets/images/btn-sendme.png') no-repeat scroll;
+  text-indent: -9999px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+#free-inspection {width: 100%; text-align: center;}
+#free-inspection input[type="submit"]
+{
+    clear:both;
+    margin: 0;
+    border: 0px none;
+    overflow: hidden;
+    padding: 0px;
+    width: 480px;
+    height: 70px;
+    background: transparent url('/assets/images/hot-tub-inspection-active.png') no-repeat scroll;
+    text-indent: -9999px;
+    line-height: 0;
+    cursor: pointer;
+}
+#free-inspection input[type="submit"]:hover
+{
+   background: transparent url('/assets/images/hot-tub-inspection-hover.png') no-repeat scroll;
+}
+.got-it { color: #05437E; display: inline-block; font-size:25px; }
+
+.state-wrapper{
+  float: left;
+  width: 100px;
+}
+.zip-wrapper {
+  float: left;
+  width: 120px;
+  margin-left: 9px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mail-form-col {
+    width: 100%; float: none;
+  }
+}
