@@ -920,14 +920,10 @@ a.call strong {
 	.form-reg .req {
 		font-size: 14px;
 	}
-	.select-area {
-		margin: 0 7px 0 3px;
-		height: 38px;
-	}
 	.select-area .center {
 		padding: 9px 6px;
 		line-height: 20px;
-		font-size: 16px;
+		font-size: 12px;
 	}
 	.select-area .select-opener {
 		width: 38px;
@@ -1263,7 +1259,7 @@ a.call strong {
 	}
 	.select-area {
 		margin: 0 5px 0 2px;
-		height: 28px;
+		height: 32px;
 	}
 	.select-area .center {
 		padding: 6px 4px;
