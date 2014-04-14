@@ -8,15 +8,15 @@ class Main extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 
-		// Store iref if set in the query string
-    if($this->input->get('iref')) {
-        $this->session->set_userdata('iref', $this->input->get('iref'));
-    } else {
-    		$this->session->set_userdata('iref', 'iDRTV');
-    }
 	}
 
 	public function index() {
+    // Store iref if set in the query string
+    if($this->input->get('iref')) {
+        $this->session->set_userdata('iref', $this->input->get('iref'));
+    } else {
+        $this->session->set_userdata('iref', 'iDRTV');
+    }
 		$this->load->view('front/index');
 	}
 

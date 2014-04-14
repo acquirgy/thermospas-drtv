@@ -223,7 +223,7 @@ overflow: hidden;
 	top: 0;
 	right: 0;
 	width: 28px;
-	height: 28px;
+	height: 33px;
 	background: #76a9cc;
 }
 .select-area .select-opener:after {
@@ -927,7 +927,7 @@ a.call strong {
 	}
 	.select-area .select-opener {
 		width: 38px;
-		height: 38px;
+		height: 33px;
 	}
 	.select-area .select-opener:after {
 		top: 14px;
@@ -1268,7 +1268,7 @@ a.call strong {
 	}
 	.select-area .select-opener {
 		width: 28px;
-		height: 28px;
+		height: 32px;
 	}
 	.select-area .select-opener:after {
 		top: 10px;
