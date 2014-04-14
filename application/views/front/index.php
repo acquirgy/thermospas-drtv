@@ -86,7 +86,7 @@
 					<div class="top-promo">
 						<!-- promo disk -->
 						<div class="promo-disk">
-							<img src="/assets/images/backyard-resorts.png" alt="image description">
+							<img src="/assets/images/backyard-resorts.jpg" alt="image description">
 
 						</div>
 						<!-- promo text -->
@@ -96,25 +96,11 @@
 							<p>Get started right now with a <em><strong>FREE</em></strong> DVD, informational brochure, and complimentary Backyard Resorts Guide packed with ideas to help you create your own personal backyard resort. <em>PLUS</em>, get <em><strong>$1,000 in savings!</strong></em> </p>
 						</div>
 					</div>
-                    <div class="features-holder">
-            <!-- features -->
-            <div class="features">
-              <strong class="title">As seen on:</strong>
-              <ul class="features-list">
-                <li><img src="/assets/images/img05.jpg" alt="image description"></li>
-                <li><img src="/assets/images/img07.jpg" alt="image description"></li>
-                <li><img src="/assets/images/img08.jpg" alt="image description"></li>
-              </ul>
-            </div>
-            <div class="btn-get">
-              <a href="#" class="focusForm">Get your <span>FREE</span> DVD, Brochure, Guide, and $1,000 Savings!</a>
-            </div>
-          </div>
-					<!-- advantage -->
-					<div class="advantage-block">
-						<span class="title">What Real Customers Are Saying</span>
-						<!-- videos -->
-						<div class="boxes">
+           <!-- advantage -->
+          <div class="advantage-block">
+            <span class="title">What Real Customers Are Saying</span>
+            <!-- videos -->
+            <div class="boxes">
               <div class="box">
                   <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
                   Isaac and Isa Matthews
@@ -132,8 +118,21 @@
                   Ethan and Angie Colchiski
               </div>
             </div>
-					</div>
-
+          </div>
+           <div class="features-holder">
+            <!-- features -->
+            <div class="features">
+              <strong class="title">As seen on:</strong>
+              <ul class="features-list">
+                <li><img src="/assets/images/img05.jpg" alt="image description"></li>
+                <li><img src="/assets/images/img07.jpg" alt="image description"></li>
+                <li><img src="/assets/images/img08.jpg" alt="image description"></li>
+              </ul>
+            </div>
+            <div class="btn-get">
+              <a href="#" class="focusForm">Get your <span>FREE</span> DVD, Brochure, Guide, and $1,000 Savings!</a>
+            </div>
+          </div>
 				</section>
 				<!-- footer -->
         <div id="footer">

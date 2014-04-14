@@ -322,23 +322,21 @@ overflow: hidden;
 	margin: 0 auto;
 	border: 1px solid #d6d6d6;
 	border-top: 1px solid #f7f7f7;
-	padding: 37px 40px 0;
-	max-width: 968px;
-	background: #f7f7f7 url(/assets/images/bg-main.png) repeat-x;
+	padding: 37px 0px 0 0;
+	max-width: 1050px;
+	background: #ffffff url(/assets/images/bg-main.png) repeat-x;
 }
 #content {
 	width: 100%;
 }
 .top-promo {
 	overflow: hidden;
-	width: 100%;
-	border-bottom: 1px solid #d9d6d6;
-	margin-bottom: 10px;
+	padding: 0px 20px;
 }
 .promo-disk {
 	float: left;
-	margin: 0 28px 0 0;
-	padding: 1px 6px 0 2px;
+	margin: 0 26px 0 10px;
+	padding: 1px 0px 10px 10px;
 	width: 326px;
 	background: url(/assets/images/sep-promo-disk.png) no-repeat 100% 0;
 }
@@ -368,11 +366,12 @@ overflow: hidden;
 	margin: 0 0 13px;
 }
 .advantage-block {
-	padding: 0 0 20px 0;
-	margin: 0;
+	padding: 20px 20px 30px 20px;
+	margin: 0 auto;
+	background: url(/assets/images/shadow-box.jpg) no-repeat 100% 0;
 }
 .advantage-block .title {
-	margin: 0 0 20px;
+
 	font-size: 1.25em;
 	line-height: 25px;
 	font-weight: normal;
@@ -389,7 +388,7 @@ overflow: hidden;
 }
 
 .features-holder {
-	width: 100%;
+	padding: 0px 20px;
 }
 .features-holder:after {
 	content: "";
@@ -599,7 +598,7 @@ overflow: hidden;
 #footer {
 	position: relative;
 	overflow: hidden;
-	padding: 20px 0 16px;
+	padding: 20px 20px 16px 20px;
 }
 .partners {
     position: absolute;
@@ -788,6 +787,16 @@ a.call strong {
 		left: 17%;
 		margin: 0;
 	}
+	.main-promo {
+	padding: 25px 80px 0 275px;
+	line-height: 24px;
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	}
+	.main-promo  .title {
+		letter-spacing: 0px;
+		line-height: 24px;
+	}
 	.promo-txt {
 		padding: 13px 0 0;
 		line-height: 15px;
@@ -945,12 +954,15 @@ a.call strong {
 	background: none;
 	}
 	.main-promo {
-		line-height: 26px;
+		line-height: 1.5em;
 		font-size: 24px;
 		letter-spacing: -1px;
 		text-align: left;
+		padding: 25px 75px 0px 0px;
 	}
-
+		.main-promo .title{
+		line-height: 1em;
+}
 	#main {
 		margin: 0 auto;
 		border: 0;
@@ -992,7 +1004,7 @@ a.call strong {
 		line-height: 25px;
 	}
 	.promo-txt p {margin: 0 0 27px;}
-	.advantage-block {padding: 0 0 13px;}
+	.advantage-block {padding: 0 0 13px; background-image:none}
 	.advantage-block h2 {
 		margin: 0 0 19px;
 		line-height: 26px;
@@ -1351,6 +1363,10 @@ a.call strong {
 	.lightbox .area {
 		padding: 10px;
 		width: 212px;
+	}
+		.main-promo {
+		padding: 25px 75px 0px 15px;
+		line-height: 1em;
 	}
 	.main-promo .title {
 	 font-size: 1.25em;
