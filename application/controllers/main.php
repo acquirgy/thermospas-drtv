@@ -12,11 +12,7 @@ class Main extends CI_Controller {
 
 	public function index() {
     // Store iref if set in the query string
-    if($this->input->get('iref')) {
-        $this->session->set_userdata('iref', $this->input->get('iref'));
-    } else {
-        $this->session->set_userdata('iref', 'iDRTV');
-    }
+    $this->session->set_userdata('iref', $this->input->get('iref') ? $this->input->get('iref') : $this->input->get('src') ? $this->input->get('src') : 'iDRTV');
 		$this->load->view('front/index');
 	}
 
