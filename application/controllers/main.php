@@ -12,12 +12,17 @@ class Main extends CI_Controller {
 
 	public function index() {
     // Store iref if set in the query string
-    $this->session->set_userdata('iref', $this->input->get('iref') ? $this->input->get('iref') : $this->input->get('src') ? $this->input->get('src') : 'iDRTV');
-		$this->load->view('front/index');
+    if($this->input->get('iref')) {
+         $this->session->set_userdata('iref', $this->input->get('iref'));
+     } else if ($this->input->get('src')) { $this->session->set_userdata('iref', $this->input->get('src'));
+      } else {
+         $this->session->set_userdata('iref', 'iDRTV');
+     }
+
+    $this->load->view('front/index');
 	}
 
   public function confirmation() {
-
 		$data['lead'] = array(
 			'fname' => $this->input->post('fname'),
 			'lname' => $this->input->post('lname'),
@@ -34,7 +39,6 @@ class Main extends CI_Controller {
 		} else {
 			$this->load->view('front/error');
 		}
-
 	}
 
 
