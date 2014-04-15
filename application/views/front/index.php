@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>ThermoSpas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link media="all" rel="stylesheet" href="/assets/stylesheets/shared/normalize.css">
   <link media="all" rel="stylesheet" href="/assets/stylesheets/front/fancybox.css">
   <link media="all" rel="stylesheet" href="/assets/stylesheets/front/all.css">
   <script type="text/javascript" src="/assets/javascripts/front/jquery-1.8.3.min.js"></script>
