@@ -18,7 +18,7 @@
       <h1 class="logo"><a href="#">ThermoSpas - Designed to Improve Your Life</a></h1>
       <div class="phone-top">
        <p ><strong>Have Questions?</strong></p>
-       <p>1-800-985-5084</p>
+       <p>1-800-876-0158</p>
    </div>
    <div class="partners" >
       <img src="/assets/images/img10.png" alt="image description" />

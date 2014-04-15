@@ -1,5 +1,6 @@
 // page init
 jQuery(function () {
+    $('#wrapper').mousemove(function() {  $('.tester').val('valid'); });
     jcf.customForms.replaceAll();
     if (!navigator.msPointerEnabled) {
         initPhoneField();

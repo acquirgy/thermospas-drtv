@@ -141,6 +141,9 @@ overflow: hidden;
 #form-links{
 	text-align: center;
 }
+#form-links.row{
+	margin-top: -10px;
+}
 .form-reg input[type="text"] {
 	float: left;
 	margin: 0 3px 0 0;
@@ -1035,6 +1038,7 @@ a.call strong {
 		height: 50px;
 		line-height: 1.12em;
 		font-size: 1.2em;
+		letter-spacing: 0px;
 		background: url(/assets/images/sprite.png) no-repeat 0 -593px;
 		padding: 8px 0px 20px 8px;
 	}

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>ThermoSpas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link media="all" rel="stylesheet" href="/assets/stylesheets/shared/normalize.css">
   <link media="all" rel="stylesheet" href="/assets/stylesheets/front/fancybox.css">
   <link media="all" rel="stylesheet" href="/assets/stylesheets/front/all.css">
   <script type="text/javascript" src="/assets/javascripts/front/jquery-1.8.3.min.js"></script>
@@ -50,6 +51,7 @@
                 <strong class="title">Fast, Easy &amp; FREE!</strong>
                 <p class="getstarted">Just fill out the quick form below to receive your FREE information. No obligation!</p>
                 <p class="req">* required</p>
+                <input type="hidden" name="tester" class="tester" value="invalid" />
                 <div class="row">
                   <div class="row-area">
                     <input name="fname" id="fname" class="text1 required" type="text" placeholder="First Name*" title="First Name*" />
