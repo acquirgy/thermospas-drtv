@@ -386,10 +386,10 @@ overflow: hidden;
 }
 .boxes .box {
   float: left;
-  padding: 0 0px 0 21px;
+  padding: 0 10px 0 10px;
   margin: 0 auto;
+    text-align: center;
 }
-
 .features-holder {
 	padding: 0px 20px;
 }
@@ -1003,12 +1003,18 @@ a.call strong {
 		line-height: 25px;
 	}
 	.promo-txt p {margin: 0 0 27px;}
-	.advantage-block {padding: 0 0 13px; background-image:none}
+	.advantage-block {
+		padding: 0px;
+		background-image:none;
+		margin-bottom: 15px;
+		}
 	.advantage-block h2 {
 		margin: 0 0 19px;
 		line-height: 26px;
 		font-size: 22px;
 	}
+	.boxes {
+		}
 	.features-holder {width: 100%;}
 	.features {
 		float: none;
@@ -1360,5 +1366,10 @@ a.call strong {
 }
 .nonmobile {
     display: none;
+}
+.advantage-block {text-align: center;}
+.boxes .box {
+  margin: 0 auto;
+  width: 100%;
 }
 }

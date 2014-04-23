@@ -41,7 +41,7 @@ class Main extends CI_Controller {
   			$this->load->view('front/error');
   		}
     } else {
-      $this->load->view('front/index');
+      $this->load->view('front/error');
     }
 	}
 

@@ -88,22 +88,20 @@
 <div class="media-block">
   <h2>Or just click the links below to view or download content.</h2>
   <ul class="media-list">
-    <li><a href="#" target="_blank">
-        <img src="/assets/images/br-guide.png" alt="image description">
-        <span>Download the Backyard Resorts Guide PDF (x.x MB)</span> </a></li>
-
-        <li><a href="http://www.thermospas.com/wp-content/plugins/ts_form/downloads/Full_Series_Brochure.pdf" target="_blank">
-            <img src="/assets/images/img12.png" alt="image description">
-            <span>Download the ThermoSpas Brochure PDF (4.3 MB)</span> </a></li>
-            <li><a href="http://www.thermospas.com/thermospas-dvd.html" target="_blank">
-                <img src="/assets/images/img13.png" alt="image description">
-                <span>Watch videos from the ThermoSpas DVD</span> </a></li>
-                <li><a href="http://www.thermospas.com/wp-content/plugins/ts_form/downloads/thermospas-savings-coupon.pdf"
-                    target="_blank">
-                    <img src="/assets/images/img14.png" alt="image description">
-                    <span>Download the ThermoSpas $1000 coupon (562 KB)</span> </a></li>
-                </ul>
-            </div>
+    <li><a href="http://www.thermospastvoffer.com/files/ThermoSpas_Backyard_Resorts_Guide.pdf" target="_blank">
+      <img src="/assets/images/br-guide.png" alt="image description">
+      <span>Download the Backyard Resorts Guide PDF (x.x MB)</span> </a></li>
+    <li><a href="http://www.thermospas.com/wp-content/plugins/ts_form/downloads/Full_Series_Brochure.pdf" target="_blank">
+        <img src="/assets/images/img12.png" alt="image description">
+        <span>Download the ThermoSpas Brochure PDF (4.3 MB)</span> </a></li>
+    <li><a href="http://www.thermospas.com/thermospas-dvd.html" target="_blank">
+        <img src="/assets/images/img13.png" alt="image description">
+        <span>Watch videos from the ThermoSpas DVD</span> </a></li>
+    <li><a href="http://www.thermospas.com/wp-content/plugins/ts_form/downloads/thermospas-savings-coupon.pdf" target="_blank">
+        <img src="/assets/images/img14.png" alt="image description">
+        <span>Download the ThermoSpas $1000 coupon (562 KB)</span> </a></li>
+    </ul>
+</div>
         </section>
                 <!-- footer -->
         <div id="footer">

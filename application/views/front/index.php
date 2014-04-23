@@ -103,20 +103,20 @@
             <!-- videos -->
             <div class="boxes">
               <div class="box">
-                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  <iframe width="230" height="200" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
                   Isaac and Isa Matthews
               </div>
               <div class="box">
-                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
+                  <iframe width="230" height="200" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
                   Dr. Michael and Shannon Holloway
               </div>
               <div class="box">
-                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
-                  Todd Burnap
+                  <iframe width="230" height="200" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
+                  Wayne Holmok
               </div>
               <div class="box">
-                  <iframe width="212" height="130" src="//www.youtube.com/embed/dROZDbu8yWg" frameborder="0" allowfullscreen></iframe><br/>
-                  Ethan and Angie Colchiski
+                  <iframe width="230" height="200" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
+                  Lynda Harned and Diane Chvila
               </div>
             </div>
           </div>
