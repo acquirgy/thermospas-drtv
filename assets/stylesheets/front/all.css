@@ -437,9 +437,9 @@ overflow: hidden;
 .btn-get a {
 	color: #fff;
 	float: right;
-	font-size:18px;
+	font-size: 1.35em;
 	font-weight: bold;
-	font-family: Myriad Pro, Lucida Sans, Segoe UI, Calibri, sans serif;
+	font-family: Calibri, sans serif;
 	letter-spacing:0px;
 	line-height: 58px;
 	background: url(/assets/images/sprite.png) no-repeat 0 -160px;
@@ -1043,8 +1043,8 @@ a.call strong {
 	.btn-get a {
 		height: 50px;
 		line-height: 1.12em;
-		font-size: 1.2em;
-		letter-spacing: 0px;
+		font-size: 1.1em;
+		letter-spacing: -1px;
 		background: url(/assets/images/sprite.png) no-repeat 0 -593px;
 		padding: 8px 0px 20px 8px;
 	}
