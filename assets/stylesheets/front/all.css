@@ -359,11 +359,11 @@ overflow: hidden;
 }
 .promo-txt h2 {
 	margin: 0 0 15px;
-	line-height: 22px;
+	line-height: 26px;
 	font-weight: normal;
 	color: #00529b;
-	font-size: 1.3em;
-	width: 80%;
+	font-size: 1.6em;
+	text-align: left;
 }
 .promo-txt p {
 	margin: 0 0 13px;
