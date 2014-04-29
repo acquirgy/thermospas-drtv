@@ -90,7 +90,7 @@
   <ul class="media-list">
     <li><a href="http://www.thermospastvoffer.com/files/ThermoSpas_Backyard_Resorts_Guide.pdf" target="_blank">
       <img src="/assets/images/br-guide.png" alt="image description">
-      <span>Download the Backyard Resorts Guide PDF (x.x MB)</span> </a></li>
+      <span>Download the Backyard Resorts Guide PDF (6.1 MB)</span> </a></li>
     <li><a href="http://www.thermospas.com/wp-content/plugins/ts_form/downloads/Full_Series_Brochure.pdf" target="_blank">
         <img src="/assets/images/img12.png" alt="image description">
         <span>Download the ThermoSpas Brochure PDF (4.3 MB)</span> </a></li>

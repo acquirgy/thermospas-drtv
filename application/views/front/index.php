@@ -40,7 +40,7 @@
 								<!-- main promo -->
 								<div class="main-promo">
                   <strong class="title">Get Your <span>FREE</span> DVD, Brochure, &amp; Backyard Resorts Guide!</strong>
-									Plus, Right Now get <strong><span class="curr">$</span>1,000 in Savings</strong>
+									Plus, Right Now get <strong>$1,000 in Savings</strong>
 								</div>
 							</div>
 							<!-- registration form -->
@@ -92,9 +92,9 @@
 						</div>
 						<!-- promo text -->
 						<div class="promo-txt">
-							<h2>Wouldn’t it be great to get away to a luxurious spa resort <strong>whenever you felt like it?</strong></h2>
+							<h2>Wouldn’t it be great to get away to a luxurious spa resort <strong><em>whenever you felt like it?</em></strong></h2>
 							<p>Well, you can! Find out how easy and affordable it can be for you to create and enjoy a beautiful backyard resort – <em><strong>right in your own backyard</strong></em> – with a ThermoSpas home spa, customized specifically for you! </p>
-							<p>Get started right now with a <em><strong>FREE</em></strong> DVD, informational brochure, and complimentary Backyard Resorts Guide packed with ideas to help you create your own personal backyard resort. <em>PLUS</em>, get <em><strong>$1,000 in savings!</strong></em> </p>
+							<p>Get started right now with a <strong><em>FREE</em></strong> DVD, informational brochure, and complimentary Backyard Resorts Guide packed with ideas to help you create your own personal backyard resort. <em>PLUS</em>, get <em><strong>$1,000 in savings!</strong></em> </p>
 						</div>
 					</div>
            <!-- advantage -->
