@@ -103,20 +103,23 @@
             <!-- videos -->
             <div class="boxes">
               <div class="box">
-                  <iframe width="230" height="200" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
+                  <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/> -->
+                  <a class="lightbox-opener" href="#popup3"><img src="/assets/images/Testimonial_Thumb_1a.jpg" alt="image description"></a><br/>
                   Isaac and Isa Matthews
               </div>
               <div class="box">
-                  <iframe width="230" height="200" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
-                  Dr. Michael and Shannon Holloway
+                 <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/> -->
+                  <a class="lightbox-opener" href="#popup4"><img src="/assets/images/Testimonial_Thumb_2a.jpg" alt="image description"></a><br/>
+              Dr. Michael and Shannon Holloway
               </div>
               <div class="box">
-                  <iframe width="230" height="200" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
+                  <a class="lightbox-opener" href="#popup5"><img src="/assets/images/Testimonial_Thumb_3a.jpg" alt="image description"></a><br/>
                   Wayne Holmok
               </div>
               <div class="box">
-                  <iframe width="230" height="200" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
-                  Lynda Harned and Diane Chvila
+                  <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/> -->
+                   <a class="lightbox-opener" href="#popup6"><img src="/assets/images/Testimonial_Thumb_4a.jpg" alt="image description"></a><br/>
+                    Lynda Harned and Diane Chvila
               </div>
             </div>
           </div>
@@ -370,6 +373,55 @@
                 </div>
             </div>
         </div>
+        <div id="popup3" class="lightbox">
+            <div class="heading">
+                <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+                    close</span>
+            </div>
+            <div class="area">
+                <div class="frame">
+                     <iframe width="420" height="239" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
+                  Isaac and Isa Matthews
+                </div>
+            </div>
+        </div>
+        <div id="popup4" class="lightbox">
+          <div class="heading">
+            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+            close</span>
+          </div>
+          <div class="area">
+            <div class="frame">
+              <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
+              Dr. Michael and Shannon Holloway
+            </div>
+          </div>
+        </div>
+
+      <div id="popup5" class="lightbox">
+        <div class="heading">
+          <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+          close</span>
+        </div>
+        <div class="area">
+          <div class="frame">
+            <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
+            Wayne Holmok
+          </div>
+        </div>
+      </div>
+      <div id="popup6" class="lightbox">
+        <div class="heading">
+          <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+          close</span>
+        </div>
+        <div class="area">
+          <div class="frame">
+            <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
+            Lynda Harned and Diane Chvila
+          </div>
+        </div>
+      </div>
     </div>
 
 </body>
