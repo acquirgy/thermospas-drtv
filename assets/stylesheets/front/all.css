@@ -700,7 +700,6 @@ a.call strong {
 .lightbox {
 	border: 1px solid #9d9d9d;
 	border-top-color: #3f7490;
-	width: 592px;
 	background: #fff;
 }
 #fancybox-outer {
@@ -712,7 +711,7 @@ a.call strong {
 	border-bottom: 1px solid #78b4d5;
 	padding: 12px 13px 7px 21px;
 	min-height: 21px;
-	background: #0273b1;
+	background: none repeat scroll 0 0 #00529B;
 }
 .lightbox .close-text {
 	float: right;
@@ -758,7 +757,7 @@ a.call strong {
 	color: #414141;
 }
 .lightbox .area {
-	padding: 15px 18px 35px;
+	padding: 7px 12px;
 	width: 556px;
 	line-height: 16px;
 	font-size: 12px;
@@ -767,7 +766,6 @@ a.call strong {
 .lightbox .frame {
 	overflow: auto;
 	padding: 0 10px 0 0;
-	height: 311px;
 }
 .lightbox .area p {
 	margin: 0 0 15px;
@@ -1216,8 +1214,6 @@ a.call strong {
     margin: 0 auto;
 }
 .phone-top {width: 100%; font-size: 1.25em;}
-.lightbox .frame {height: auto;}
-.
 }
 @media only screen and (max-width: 479px) {
 	#header {
