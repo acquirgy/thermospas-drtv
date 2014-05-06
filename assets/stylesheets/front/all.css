@@ -1216,6 +1216,8 @@ a.call strong {
     margin: 0 auto;
 }
 .phone-top {width: 100%; font-size: 1.25em;}
+.lightbox .frame {height: auto;}
+.
 }
 @media only screen and (max-width: 479px) {
 	#header {

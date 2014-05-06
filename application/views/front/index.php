@@ -374,17 +374,19 @@
             </div>
         </div>
         <div id="popup3" class="lightbox">
-            <div class="heading">
-                <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-                    close</span>
-            </div>
-            <div class="area">
-                <div class="frame">
-                     <iframe width="420" height="239" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
-                  Isaac and Isa Matthews
-                </div>
-            </div>
-        </div>
+          <div class="heading">
+            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+            close</span>
+          </div>
+          <div class="area">
+            <div class="frame">
+              <div class="video-container">
+               <iframe width="560" height="315" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
+               Isaac and Isa Matthews
+             </div>
+           </div>
+         </div>
+       </div>
         <div id="popup4" class="lightbox">
           <div class="heading">
             <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
@@ -392,37 +394,41 @@
           </div>
           <div class="area">
             <div class="frame">
-              <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
-              Dr. Michael and Shannon Holloway
+              <div class="video-container">
+                <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
+                Dr. Michael and Shannon Holloway
+              </div>
             </div>
           </div>
         </div>
-
-      <div id="popup5" class="lightbox">
-        <div class="heading">
-          <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-          close</span>
-        </div>
-        <div class="area">
-          <div class="frame">
-            <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
-            Wayne Holmok
+        <div id="popup5" class="lightbox">
+          <div class="heading">
+            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+            close</span>
+          </div>
+          <div class="area">
+            <div class="frame">
+              <div class="video-container">
+                <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
+                Wayne Holmok
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="popup6" class="lightbox">
-        <div class="heading">
-          <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-          close</span>
-        </div>
-        <div class="area">
-          <div class="frame">
-            <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
-            Lynda Harned and Diane Chvila
+        <div id="popup6" class="lightbox">
+          <div class="heading">
+            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+            close</span>
+          </div>
+          <div class="area">
+            <div class="frame">
+              <div class="video-container">
+                <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
+                Lynda Harned and Diane Chvila
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
-
 </body>
 </html>
