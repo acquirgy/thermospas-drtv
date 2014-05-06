@@ -107,7 +107,7 @@
         <div id="footer">
          <div class="partners-bottom bottom-text">
           <p class="phone mobileonly"><strong>Get Your Free DVD, Brochure, and Guide Now!</strong><br /><span class="call">Call Today <a href="tel:1-800-876-0158" style="text-decoration: underline;">1-800-876-0158</a></span></p>
-          <p class="phone nonmobile" ><strong>Get Your Free DVD, Brochure, and Guide Now!</strong><br /><span class="call">Call Today 1-800-876-01584</span></p>
+          <p class="phone nonmobile" ><strong>Get Your Free DVD, Brochure, and Guide Now!</strong><br /><span class="call">Call Today 1-800-876-0158</span></p>
         </div>
         <div class="partners-bottom" >
           <img src="/assets/images/img10.png" alt="image description" />

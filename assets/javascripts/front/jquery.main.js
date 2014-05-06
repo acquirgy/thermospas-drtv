@@ -1,6 +1,21 @@
 // page init
 jQuery(function () {
     $('#wrapper').mousemove(function() {  $('.tester').val('valid'); });
+    $(".yt").click(function(e) {
+    $.fancybox({
+            'padding' : 0,
+            'type' : 'swf',
+            'href' : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+            'swf' : { 'wmode' : 'transparent', 'allowfullscreen' : 'true' },
+            'padding'       : 0,
+            'autoScale'     : false,
+            'transitionIn'  : 'none',
+            'transitionOut' : 'none',
+            'width'         : 350,
+            'height'        : 250
+        });
+    e.preventDefault();
+});
     jcf.customForms.replaceAll();
     if (!navigator.msPointerEnabled) {
         initPhoneField();

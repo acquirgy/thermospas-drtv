@@ -103,22 +103,21 @@
             <!-- videos -->
             <div class="boxes">
               <div class="box">
-                  <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/> -->
-                  <a class="lightbox-opener" href="#popup3"><img src="/assets/images/Testimonial_Thumb_1a.jpg" alt="Testimonial 1" onmouseover="this.src='/assets/images/Testimonial_Thumb_1b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_1a.jpg';"></a><br/>
+                  <a class="yt" href="https://www.youtube.com/watch?v=jC5p_bKz-FU&amp;autoplay=1&amp;rel=0"><img src="/assets/images/Testimonial_Thumb_1a.jpg" alt="Testimonial 1" onmouseover="this.src='/assets/images/Testimonial_Thumb_1b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_1a.jpg';"></a><br/>
                   Isaac and Isa Matthews
               </div>
               <div class="box">
                  <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/> -->
-                  <a class="lightbox-opener" href="#popup4"><img src="/assets/images/Testimonial_Thumb_2a.jpg" alt="Testimonial 2" onmouseover="this.src='/assets/images/Testimonial_Thumb_2b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_2a.jpg';"></a><br/>
+                  <a class="yt" href="https://www.youtube.com/watch?v=KvsrZTVev2c&amp;autoplay=1&amp;rel=0"><img src="/assets/images/Testimonial_Thumb_2a.jpg" alt="Testimonial 2" onmouseover="this.src='/assets/images/Testimonial_Thumb_2b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_2a.jpg';"></a><br/>
               Dr. Michael and Shannon Holloway
               </div>
               <div class="box">
-                  <a class="lightbox-opener" href="#popup5"><img src="/assets/images/Testimonial_Thumb_3a.jpg" alt="Testimonial 3" onmouseover="this.src='/assets/images/Testimonial_Thumb_3b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_3a.jpg';"></a><br/>
+                  <a class="yt" href="https://www.youtube.com/watch?v=u15XBQ4CMFI&amp;autoplay=1&amp;rel=0"><img src="/assets/images/Testimonial_Thumb_3a.jpg" alt="Testimonial 3" onmouseover="this.src='/assets/images/Testimonial_Thumb_3b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_3a.jpg';"></a><br/>
                   Wayne Holmok
               </div>
               <div class="box">
                   <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/> -->
-                   <a class="lightbox-opener" href="#popup6"><img src="/assets/images/Testimonial_Thumb_4a.jpg" alt="Testimonial 4" onmouseover="this.src='/assets/images/Testimonial_Thumb_4b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_4a.jpg';"></a><br/>
+                   <a class="yt" href="https://www.youtube.com/watch?v=mgRjiy_xFfo&amp;autoplay=1&amp;rel=0"><img src="/assets/images/Testimonial_Thumb_4a.jpg" alt="Testimonial 4" onmouseover="this.src='/assets/images/Testimonial_Thumb_4b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_4a.jpg';"></a><br/>
                     Lynda Harned and Diane Chvila
               </div>
             </div>
@@ -346,89 +345,33 @@
                 </div>
             </div>
         </div>
-<div id="popup2" class="lightbox">
-            <div class="heading">
-                <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-                    close</span>
-                <h2>
-                    Terms and Conditions</h2>
+        <div id="popup2" class="lightbox">
+          <div class="heading">
+            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
+            close</span>
+            <h2>
+              Terms and Conditions</h2>
             </div>
             <div class="area">
-                <h3>
-                    $1,000 Bonus Gifts Breakdown&#42;</h3>
+              <h3>
+                $1,000 Bonus Gifts Breakdown&#42;</h3>
                 <br />
                 <div class="frame">
+                  <p>
+                    <strong>&#36;400 Cash Discount - </strong>Save &#36;400 on any Designer Series Spa</p>
                     <p>
-                        <strong>&#36;400 Cash Discount - </strong>Save &#36;400 on any Designer Series Spa</p>
-                    <p>
-                        <strong>Free Delivery & Installation -</strong> A &#36;450 value that includes a
-                        full inspection and complete spa education</p>
-                    <p>
+                      <strong>Free Delivery & Installation -</strong> A &#36;450 value that includes a
+                      full inspection and complete spa education</p>
+                      <p>
                         <strong>Free Chemical Starter Kit -</strong> A &#36;150 value that includes everything
                         you need to start enjoying your hot tub immediately</p>
-                    <p style="font-style: italic">
-                        &#42;&#36;1,000 Bonus Gifts are only valid during initial visit and may not be combined
-                        with any other offer. Discount only applies to the purchase of a Designer Series
-                        hot tub.</p>
-                </div>
-            </div>
-        </div>
-        <div id="popup3" class="lightbox">
-          <div class="heading">
-            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-            close</span>
-          </div>
-          <div class="area">
-            <div class="frame">
-              <div class="video-container">
-               <iframe width="560" height="315" src="//www.youtube.com/embed/jC5p_bKz-FU/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
-             </div>
-             <p>Isaac and Isa Matthews</p>
-           </div>
-         </div>
-       </div>
-        <div id="popup4" class="lightbox">
-          <div class="heading">
-            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-            close</span>
-          </div>
-          <div class="area">
-            <div class="frame">
-              <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
-              </div>
-              <p>Dr. Michael and Shannon Holloway</p>
-            </div>
-          </div>
-        </div>
-        <div id="popup5" class="lightbox">
-          <div class="heading">
-            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-            close</span>
-          </div>
-          <div class="area">
-            <div class="frame">
-              <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
-              </div>
-              <p>Wayne Holmok</p>
-            </div>
-          </div>
-        </div>
-        <div id="popup6" class="lightbox">
-          <div class="heading">
-            <a class="close" href="#">X</a> <span class="close-text">hit <span>escape</span> to
-            close</span>
-          </div>
-          <div class="area">
-            <div class="frame">
-              <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
-              </div>
-              <p>Lynda Harned and Diane Chvila</p>
-            </div>
-          </div>
-        </div>
+                        <p style="font-style: italic">
+                          &#42;&#36;1,000 Bonus Gifts are only valid during initial visit and may not be combined
+                          with any other offer. Discount only applies to the purchase of a Designer Series
+                          hot tub.</p>
+                        </div>
+                      </div>
+                    </div>
     </div>
 </body>
 </html>
