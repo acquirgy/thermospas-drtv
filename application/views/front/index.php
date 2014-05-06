@@ -381,7 +381,7 @@
           <div class="area">
             <div class="frame">
               <div class="video-container">
-               <iframe width="560" height="315" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/>
+               <iframe width="560" height="315" src="//www.youtube.com/embed/jC5p_bKz-FU/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
              </div>
              <p>Isaac and Isa Matthews</p>
            </div>
@@ -395,7 +395,7 @@
           <div class="area">
             <div class="frame">
               <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/>
+                <iframe width="420" height="239" src="//www.youtube.com/embed/KvsrZTVev2c/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
               </div>
               <p>Dr. Michael and Shannon Holloway</p>
             </div>
@@ -409,7 +409,7 @@
           <div class="area">
             <div class="frame">
               <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI" frameborder="0" allowfullscreen></iframe><br/>
+                <iframe width="420" height="239" src="//www.youtube.com/embed/u15XBQ4CMFI/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
               </div>
               <p>Wayne Holmok</p>
             </div>
@@ -423,7 +423,7 @@
           <div class="area">
             <div class="frame">
               <div class="video-container">
-                <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/>
+                <iframe width="420" height="239" src="//www.youtube.com/embed/mgRjiy_xFfo/?rel=0" frameborder="0" allowfullscreen></iframe><br/>
               </div>
               <p>Lynda Harned and Diane Chvila</p>
             </div>
