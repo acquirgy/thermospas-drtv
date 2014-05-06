@@ -104,21 +104,21 @@
             <div class="boxes">
               <div class="box">
                   <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/jC5p_bKz-FU" frameborder="0" allowfullscreen></iframe><br/> -->
-                  <a class="lightbox-opener" href="#popup3"><img src="/assets/images/Testimonial_Thumb_1a.jpg" alt="image description"></a><br/>
+                  <a class="lightbox-opener" href="#popup3"><img src="/assets/images/Testimonial_Thumb_1a.jpg" alt="Testimonial 1" onmouseover="this.src='/assets/images/Testimonial_Thumb_1b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_1a.jpg';"></a><br/>
                   Isaac and Isa Matthews
               </div>
               <div class="box">
                  <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/KvsrZTVev2c" frameborder="0" allowfullscreen></iframe><br/> -->
-                  <a class="lightbox-opener" href="#popup4"><img src="/assets/images/Testimonial_Thumb_2a.jpg" alt="image description"></a><br/>
+                  <a class="lightbox-opener" href="#popup4"><img src="/assets/images/Testimonial_Thumb_2a.jpg" alt="Testimonial 2" onmouseover="this.src='/assets/images/Testimonial_Thumb_2b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_2a.jpg';"></a><br/>
               Dr. Michael and Shannon Holloway
               </div>
               <div class="box">
-                  <a class="lightbox-opener" href="#popup5"><img src="/assets/images/Testimonial_Thumb_3a.jpg" alt="image description"></a><br/>
+                  <a class="lightbox-opener" href="#popup5"><img src="/assets/images/Testimonial_Thumb_3a.jpg" alt="Testimonial 3" onmouseover="this.src='/assets/images/Testimonial_Thumb_3b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_3a.jpg';"></a><br/>
                   Wayne Holmok
               </div>
               <div class="box">
                   <!-- <iframe width="230" height="200" src="//www.youtube.com/embed/mgRjiy_xFfo" frameborder="0" allowfullscreen></iframe><br/> -->
-                   <a class="lightbox-opener" href="#popup6"><img src="/assets/images/Testimonial_Thumb_4a.jpg" alt="image description"></a><br/>
+                   <a class="lightbox-opener" href="#popup6"><img src="/assets/images/Testimonial_Thumb_4a.jpg" alt="Testimonial 4" onmouseover="this.src='/assets/images/Testimonial_Thumb_4b.jpg';" onmouseout="this.src='/assets/images/Testimonial_Thumb_4a.jpg';"></a><br/>
                     Lynda Harned and Diane Chvila
               </div>
             </div>
