@@ -69,13 +69,14 @@
 }
 #fancybox-close {
 	position: absolute;
-	top: -15px;
-	right: -15px;
-	width: 30px;
-	height: 30px;
+	top: 5px;
+	right: 5px;
+	width: 30px !important;
+	height: 30px !important;
 	cursor: pointer;
 	z-index: 1103;
-	display: none;
+	display:inline !important;
+	background: url('images/fancybox/fancy_close.png');
 }
 #fancybox-error {
 	color: #444;
