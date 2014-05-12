@@ -3,14 +3,16 @@ jQuery(function () {
     $('#wrapper').mousemove(function() {  $('.tester').val('valid'); });
     $(".yt").click(function(e) {
     $.fancybox({
-            hideOnOverlayClick: true,
+            //hideOnOverlayClick: true,
             padding : 0,
             type : 'swf',
             href : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
             swf : { wmode : 'opaque', allowfullscreen : 'true' },
             autoScale : 0,
+            autoDimensions: true,
             width : 450,
             height : 255,
+            scrolling: 'auto',
             transitionIn      : 'elastic',
             centerOnScroll    : 'true',
             transitionOut   : 'elastic',
@@ -18,7 +20,6 @@ jQuery(function () {
             overlayOpacity: 0.7,
             overlayColor: '#000000',
             showCloseButton: true,
-
         });
     e.preventDefault();
 });
