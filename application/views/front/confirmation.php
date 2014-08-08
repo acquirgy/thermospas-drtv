@@ -71,6 +71,12 @@
       <input type="submit" value="Send Me A FREE DVD &amp; Brochure NOW!" />
     </div>
     <?= form_close() ?>
+    <script type="text/javascript">
+      var __ss_noform = __ss_noform || [];
+      __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
+      __ss_noform.push(['endpoint', '77882009-d797-4a89-a905-1a5e2f7b12f7']);
+    </script>
+    <script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
   </div>
   <!-- socials -->
   <div class="social-block">
