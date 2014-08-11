@@ -10,6 +10,19 @@
   <script type="text/javascript" src="/assets/javascripts/front/jquery.main.js"></script>
   <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
   <link href="/assets/stylesheets/front/myStyles.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+    var _ss = _ss || [];
+    _ss.push(['_setDomain', 'https://koi-PLBR48.sharpspring.com/net']);
+    _ss.push(['_setAccount', 'KOI-XGBXKS']);
+    _ss.push(['_trackPageView']);
+    (function() {
+      var ss = document.createElement('script');
+      ss.type = 'text/javascript'; ss.async = true;
+      ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-PLBR48.sharpspring.com/client/ss.js?ver=1.1.1';
+      var scr = document.getElementsByTagName('script')[0];
+      scr.parentNode.insertBefore(ss, scr);
+    })();
+  </script>
 </head>
 <body class="inner">
   <!-- page -->

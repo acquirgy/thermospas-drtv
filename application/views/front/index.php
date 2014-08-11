@@ -10,6 +10,19 @@
   <script type="text/javascript" src="/assets/javascripts/front/jquery.main.js"></script>
   <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
   <link href="/assets/stylesheets/front/myStyles.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+    var _ss = _ss || [];
+    _ss.push(['_setDomain', 'https://koi-PLBR48.sharpspring.com/net']);
+    _ss.push(['_setAccount', 'KOI-XGBXKS']);
+    _ss.push(['_trackPageView']);
+    (function() {
+      var ss = document.createElement('script');
+      ss.type = 'text/javascript'; ss.async = true;
+      ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-PLBR48.sharpspring.com/client/ss.js?ver=1.1.1';
+      var scr = document.getElementsByTagName('script')[0];
+      scr.parentNode.insertBefore(ss, scr);
+    })();
+  </script>
 </head>
 <body>
 	<div id="wrapper">
@@ -82,7 +95,7 @@
 		    __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
 		    __ss_noform.push(['endpoint', '77882009-d797-4a89-a905-1a5e2f7b12f7']);
 		</script>
-		<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>              
+		<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
 						</div>
 					</div>
 				</div>
