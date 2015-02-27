@@ -52,7 +52,7 @@
    <!-- confirm -->
    <div class="confirm-block">
     <div class="txt">
-     <h2>Thank you <span class="name"><?= $fname ?> <?= $lname ?>!</span></h2>
+     <h2>Thank you!</span></h2>
      <!-- Form -->
      <?= form_open('http://www.thermospas.com/site-inspection.html', array('class'=>'form3')) ?>
      <p><strong>Your DVD and Brochure are on their way. In the meantime, you can view the Thermospas Backyard Resorts Guide, Brochure, or DVD below. Also, our hot tub experts can help you find the perfect spot for your hot tub, click the button below to learn more.</strong></p>

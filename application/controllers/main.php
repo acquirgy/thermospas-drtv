@@ -53,12 +53,9 @@ class Main extends CI_Controller {
       'comments' => 'send_brochure'
     );
 
-    $this->lead_model->update($lead['id'], $lead_update);
+    $this->lead_model->update($this->input->post('lead_id'), $lead_update);
 
-    $data['fname'] = $lead['fname'];
-    $data['lname'] = $lead['lname'];
-
-    $this->load->view('front/confirmation2', $data);
+    $this->load->view('front/confirmation2');
 
   }
 }
