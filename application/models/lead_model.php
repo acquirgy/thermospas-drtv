@@ -6,7 +6,6 @@ class Lead_model extends MY_Model {
 
 	public function insert($lead) {
 
-		// Insert into ht_form
 		$lead['ht_date'] = date("Y-m-d");
 
 		$db = $this->load->database('default', TRUE);
@@ -14,9 +13,14 @@ class Lead_model extends MY_Model {
 		$insert_id = $db->insert_id();
 
 		return $insert_id;
+
 	}
 
 	public function update($lead_id, $update) {
+
+		$db = $this->load->database('default', TRUE);
+		$db->where('ht_id', $lead_id);
+		$result = $db->update('ht_form', $update);
 
 	}
 
