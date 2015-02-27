@@ -44,30 +44,21 @@ class Main extends CI_Controller {
 
   public function update_lead() {
 
-    // First make sure the lead exists before trying to update it
-    if($lead = $this->lead_model->get($this->input->post('lead_id'))) {
+    $lead_update = array(
+      'address1' => $this->input->post('address1'),
+      'address2' => $this->input->post('address2'),
+      'city' => $this->input->post('city'),
+      'state' => $this->input->post('state'),
+      'zipcode' => $this->input->post('zipcode'),
+      'comments' => 'send_brochure'
+    );
 
-      $lead_update = array(
-        'address1' => $this->input->post('address1'),
-        'address2' => $this->input->post('address2'),
-        'city' => $this->input->post('city'),
-        'state' => $this->input->post('state'),
-        'zipcode' => $this->input->post('zipcode'),
-        'comments' => 'send_brochure'
-      );
+    $this->lead_model->update($lead['id'], $lead_update);
 
-      $this->lead_model->update($lead['id'], $lead_update);
+    $data['fname'] = $lead['fname'];
+    $data['lname'] = $lead['lname'];
 
-      $data['fname'] = $lead['fname'];
-      $data['lname'] = $lead['lname'];
-
-      $this->load->view('front/confirmation2', $data);
-
-    } else {
-      $this->load->view('front/error');
-    }
+    $this->load->view('front/confirmation2', $data);
 
   }
-
-
 }
