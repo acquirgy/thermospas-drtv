@@ -9,9 +9,11 @@ class Lead_model extends MY_Model {
 		// Insert into ht_form
 		$lead['ht_date'] = date("Y-m-d");
 
-		$remote_db = $this->load->database('remote', TRUE);
-		$result  = $remote_db->insert('ht_form', $lead);
+		$db = $this->load->database('default', TRUE);
+		$result  = $db->insert('ht_form', $lead);
+		$insert_id = $db->insert_id();
 
+		return $insert_id;
 	}
 
 	public function update($lead_id, $update) {

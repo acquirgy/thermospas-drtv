@@ -23,26 +23,22 @@ class Main extends CI_Controller {
 	}
 
   public function confirmation() {
-    if ($this->input->post('tester') == 'valid' ) {
-  		$data['lead'] = array(
-  			'fname' => $this->input->post('fname'),
-  			'lname' => $this->input->post('lname'),
-  			'email' => $this->input->post('email'),
-  			'phone' => formatPhone($this->input->post('phone')),
-  			'zipcode' => $this->input->post('zip'),
-  			'iref' =>  $this->session->userdata('iref')
-  		);
+		$data['lead'] = array(
+			'fname' => $this->input->post('fname'),
+			'lname' => $this->input->post('lname'),
+			'email' => $this->input->post('email'),
+			'phone' => formatPhone($this->input->post('phone')),
+			'zipcode' => $this->input->post('zip'),
+			'iref' =>  $this->session->userdata('iref')
+		);
 
-  		$data['leadid'] = $this->lead_model->insert($data['lead']);
+		$data['leadid'] = $this->lead_model->insert($data['lead']);
 
-  		if($data['leadid']) {
-  			$this->load->view('front/confirmation', $data);
-  		} else {
-  			$this->load->view('front/error');
-  		}
-    } else {
-      $this->load->view('front/error');
-    }
+		if($data['leadid']) {
+			$this->load->view('front/confirmation', $data);
+		} else {
+			$this->load->view('front/error');
+		}
 	}
 
 

@@ -51,7 +51,7 @@
    <!-- confirm -->
    <div class="confirm-block">
     <div class="txt">
-     <h2>Thank you <span class="name"><?= $lead['fname'] ?> <?= $lead['lname'] ?>!</span></h2>
+     <h2>Thank you</h2>
      <p id="subtitle1"><strong>To view your ThermoSpas Backyard Resort Guide, Brochure or DVD please click on the links below, or if you provide your address, your FREE DVD and Brochure will be mailed to you:</strong></p>
      <!-- Form -->
      <?= form_open('main/update_lead', array('class'=>'form-reg2')) ?>
